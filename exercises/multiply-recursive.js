@@ -10,7 +10,26 @@
  */
 
 // Your code :
-
+// thx Yann Michel https://github.com/MaXo2-YM
+function multiply(numb1, numb2)
+{
+	if(numb1 === 0 || numb2 === 0)
+	{
+		return 0;
+	}
+	else if(numb1 == 1 || numb1 == -1)
+	{
+		return numb2;
+	}
+	else if(numb2 < 0)
+	{
+		return - numb1 + multiply(numb1, numb2 + 1)
+	}
+	else
+	{
+		return numb1 + multiply(numb1, numb2 - 1);
+	}
+}
 //* Begin of tests
 const assert = require('assert')
 

@@ -7,8 +7,14 @@
  * Of course you may not use the method directly
  *
  */
-function repeat() {
-  console.log('');
+function repeat(a,b) {
+  if (b === 0) {
+    return ''
+  }
+  else if (a === 1) {
+    return a
+  }
+  return Array(b+1).join(a);
   
 }
 
