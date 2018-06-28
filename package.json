@@ -79,10 +79,6 @@
       "tag": "math"
     },
     {
-      "name": "repeat",
-      "tags": [ "str" ]
-    },
-    {
       "name": "sentence",
       "tags": [ "str", "method" ]
     },
