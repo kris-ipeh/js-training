@@ -9,6 +9,10 @@
 
 // Your code :
 
+const getFirst = function(arrayOrString) {
+  return arrayOrString[0]
+}
+
 //* Begin of tests
 const assert = require('assert')
 

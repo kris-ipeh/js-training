@@ -6,8 +6,9 @@
  * and in lowercase for the rest of the string
  *
  */
-
-
+let capitalize = function(string){
+  return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
 //* Begin of tests
 const assert = require('assert')
 

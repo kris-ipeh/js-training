@@ -8,6 +8,10 @@
  */
 
 // Your code :
+const getLast = function(arrayOrString) {
+  let len = arrayOrString.length
+  return arrayOrString[len - 1]
+}
 
 //* Begin of tests
 const assert = require('assert')
