@@ -7,6 +7,10 @@
  * Of course you may not use the method directly
  *
  */
+function repeat() {
+  console.log('');
+  
+}
 
 //* Begin of tests
 const assert = require('assert')
